@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C9295B120AD56B600F783F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9295B020AD56B600F783F5 /* AppDelegate.m */; };
+		5C9295B420AD56B600F783F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9295B320AD56B600F783F5 /* ViewController.m */; };
+		5C9295B720AD56B600F783F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C9295B520AD56B600F783F5 /* Main.storyboard */; };
+		5C9295B920AD56B700F783F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C9295B820AD56B700F783F5 /* Assets.xcassets */; };
+		5C9295BC20AD56B700F783F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C9295BA20AD56B700F783F5 /* LaunchScreen.storyboard */; };
+		5C9295BF20AD56B700F783F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9295BE20AD56B700F783F5 /* main.m */; };
+		5C9295C920AD56B700F783F5 /* RFFloatButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9295C820AD56B700F783F5 /* RFFloatButtonTests.m */; };
+		5C9295D420AD56B800F783F5 /* RFFloatButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9295D320AD56B800F783F5 /* RFFloatButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C9295C520AD56B700F783F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C9295A420AD56B600F783F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C9295AB20AD56B600F783F5;
+			remoteInfo = RFFloatButton;
+		};
+		5C9295D020AD56B800F783F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C9295A420AD56B600F783F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C9295AB20AD56B600F783F5;
+			remoteInfo = RFFloatButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C9295AC20AD56B600F783F5 /* RFFloatButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFFloatButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C9295AF20AD56B600F783F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C9295B020AD56B600F783F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C9295B220AD56B600F783F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C9295B320AD56B600F783F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C9295B620AD56B600F783F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C9295B820AD56B700F783F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C9295BB20AD56B700F783F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C9295BD20AD56B700F783F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C9295BE20AD56B700F783F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C9295C420AD56B700F783F5 /* RFFloatButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFFloatButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C9295C820AD56B700F783F5 /* RFFloatButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFFloatButtonTests.m; sourceTree = "<group>"; };
+		5C9295CA20AD56B800F783F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C9295CF20AD56B800F783F5 /* RFFloatButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFFloatButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C9295D320AD56B800F783F5 /* RFFloatButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFFloatButtonUITests.m; sourceTree = "<group>"; };
+		5C9295D520AD56B800F783F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C9295A920AD56B600F783F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9295C120AD56B700F783F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9295CC20AD56B800F783F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C9295A320AD56B600F783F5 = {
+			isa = PBXGroup;
+			children = (
+				5C9295AE20AD56B600F783F5 /* RFFloatButton */,
+				5C9295C720AD56B700F783F5 /* RFFloatButtonTests */,
+				5C9295D220AD56B800F783F5 /* RFFloatButtonUITests */,
+				5C9295AD20AD56B600F783F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C9295AD20AD56B600F783F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C9295AC20AD56B600F783F5 /* RFFloatButton.app */,
+				5C9295C420AD56B700F783F5 /* RFFloatButtonTests.xctest */,
+				5C9295CF20AD56B800F783F5 /* RFFloatButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C9295AE20AD56B600F783F5 /* RFFloatButton */ = {
+			isa = PBXGroup;
+			children = (
+				5C9295AF20AD56B600F783F5 /* AppDelegate.h */,
+				5C9295B020AD56B600F783F5 /* AppDelegate.m */,
+				5C9295B220AD56B600F783F5 /* ViewController.h */,
+				5C9295B320AD56B600F783F5 /* ViewController.m */,
+				5C9295B520AD56B600F783F5 /* Main.storyboard */,
+				5C9295B820AD56B700F783F5 /* Assets.xcassets */,
+				5C9295BA20AD56B700F783F5 /* LaunchScreen.storyboard */,
+				5C9295BD20AD56B700F783F5 /* Info.plist */,
+				5C9295BE20AD56B700F783F5 /* main.m */,
+			);
+			path = RFFloatButton;
+			sourceTree = "<group>";
+		};
+		5C9295C720AD56B700F783F5 /* RFFloatButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C9295C820AD56B700F783F5 /* RFFloatButtonTests.m */,
+				5C9295CA20AD56B800F783F5 /* Info.plist */,
+			);
+			path = RFFloatButtonTests;
+			sourceTree = "<group>";
+		};
+		5C9295D220AD56B800F783F5 /* RFFloatButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C9295D320AD56B800F783F5 /* RFFloatButtonUITests.m */,
+				5C9295D520AD56B800F783F5 /* Info.plist */,
+			);
+			path = RFFloatButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C9295AB20AD56B600F783F5 /* RFFloatButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C9295D820AD56B800F783F5 /* Build configuration list for PBXNativeTarget "RFFloatButton" */;
+			buildPhases = (
+				5C9295A820AD56B600F783F5 /* Sources */,
+				5C9295A920AD56B600F783F5 /* Frameworks */,
+				5C9295AA20AD56B600F783F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFFloatButton;
+			productName = RFFloatButton;
+			productReference = 5C9295AC20AD56B600F783F5 /* RFFloatButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C9295C320AD56B700F783F5 /* RFFloatButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C9295DB20AD56B800F783F5 /* Build configuration list for PBXNativeTarget "RFFloatButtonTests" */;
+			buildPhases = (
+				5C9295C020AD56B700F783F5 /* Sources */,
+				5C9295C120AD56B700F783F5 /* Frameworks */,
+				5C9295C220AD56B700F783F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C9295C620AD56B700F783F5 /* PBXTargetDependency */,
+			);
+			name = RFFloatButtonTests;
+			productName = RFFloatButtonTests;
+			productReference = 5C9295C420AD56B700F783F5 /* RFFloatButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C9295CE20AD56B800F783F5 /* RFFloatButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C9295DE20AD56B800F783F5 /* Build configuration list for PBXNativeTarget "RFFloatButtonUITests" */;
+			buildPhases = (
+				5C9295CB20AD56B800F783F5 /* Sources */,
+				5C9295CC20AD56B800F783F5 /* Frameworks */,
+				5C9295CD20AD56B800F783F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C9295D120AD56B800F783F5 /* PBXTargetDependency */,
+			);
+			name = RFFloatButtonUITests;
+			productName = RFFloatButtonUITests;
+			productReference = 5C9295CF20AD56B800F783F5 /* RFFloatButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C9295A420AD56B600F783F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = rocky;
+				TargetAttributes = {
+					5C9295AB20AD56B600F783F5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					5C9295C320AD56B700F783F5 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 5C9295AB20AD56B600F783F5;
+					};
+					5C9295CE20AD56B800F783F5 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 5C9295AB20AD56B600F783F5;
+					};
+				};
+			};
+			buildConfigurationList = 5C9295A720AD56B600F783F5 /* Build configuration list for PBXProject "RFFloatButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C9295A320AD56B600F783F5;
+			productRefGroup = 5C9295AD20AD56B600F783F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C9295AB20AD56B600F783F5 /* RFFloatButton */,
+				5C9295C320AD56B700F783F5 /* RFFloatButtonTests */,
+				5C9295CE20AD56B800F783F5 /* RFFloatButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C9295AA20AD56B600F783F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9295BC20AD56B700F783F5 /* LaunchScreen.storyboard in Resources */,
+				5C9295B920AD56B700F783F5 /* Assets.xcassets in Resources */,
+				5C9295B720AD56B600F783F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9295C220AD56B700F783F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9295CD20AD56B800F783F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C9295A820AD56B600F783F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9295B420AD56B600F783F5 /* ViewController.m in Sources */,
+				5C9295BF20AD56B700F783F5 /* main.m in Sources */,
+				5C9295B120AD56B600F783F5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9295C020AD56B700F783F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9295C920AD56B700F783F5 /* RFFloatButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9295CB20AD56B800F783F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9295D420AD56B800F783F5 /* RFFloatButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C9295C620AD56B700F783F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C9295AB20AD56B600F783F5 /* RFFloatButton */;
+			targetProxy = 5C9295C520AD56B700F783F5 /* PBXContainerItemProxy */;
+		};
+		5C9295D120AD56B800F783F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C9295AB20AD56B600F783F5 /* RFFloatButton */;
+			targetProxy = 5C9295D020AD56B800F783F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C9295B520AD56B600F783F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C9295B620AD56B600F783F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C9295BA20AD56B700F783F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C9295BB20AD56B700F783F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C9295D620AD56B800F783F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C9295D720AD56B800F783F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C9295D920AD56B800F783F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFFloatButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rocky.RFFloatButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C9295DA20AD56B800F783F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFFloatButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rocky.RFFloatButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C9295DC20AD56B800F783F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFFloatButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rocky.RFFloatButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFFloatButton.app/RFFloatButton";
+			};
+			name = Debug;
+		};
+		5C9295DD20AD56B800F783F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFFloatButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rocky.RFFloatButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFFloatButton.app/RFFloatButton";
+			};
+			name = Release;
+		};
+		5C9295DF20AD56B800F783F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFFloatButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rocky.RFFloatButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RFFloatButton;
+			};
+			name = Debug;
+		};
+		5C9295E020AD56B800F783F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFFloatButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rocky.RFFloatButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RFFloatButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C9295A720AD56B600F783F5 /* Build configuration list for PBXProject "RFFloatButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C9295D620AD56B800F783F5 /* Debug */,
+				5C9295D720AD56B800F783F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C9295D820AD56B800F783F5 /* Build configuration list for PBXNativeTarget "RFFloatButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C9295D920AD56B800F783F5 /* Debug */,
+				5C9295DA20AD56B800F783F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C9295DB20AD56B800F783F5 /* Build configuration list for PBXNativeTarget "RFFloatButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C9295DC20AD56B800F783F5 /* Debug */,
+				5C9295DD20AD56B800F783F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C9295DE20AD56B800F783F5 /* Build configuration list for PBXNativeTarget "RFFloatButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C9295DF20AD56B800F783F5 /* Debug */,
+				5C9295E020AD56B800F783F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C9295A420AD56B600F783F5 /* Project object */;
+}
